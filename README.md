@@ -72,90 +72,123 @@ Xml Code:
 Xml code
      <?xml version="1.0" encoding="utf-8"?>
 <TableLayout
-xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="match_parent"
+ android:layout_height="match_parent">
 <TableLayout
-android:layout_width="match_parent" android:layout_height="wrap_content">
+android:layout_width="match_parent" 
+android:layout_height="wrap_content">
 
 <!-- Header row -->
 <TableRow>
 <TextView
-android:text="Name" android:layout_weight="1"/>
+android:text="Name"
+ android:layout_weight="1"/>
 <TextView
-android:text="Age" android:layout_weight="1"/>
+android:text="Age" 
+android:layout_weight="1"/>
 <TextView
-android:text="Gender" android:layout_weight="1"/>
+android:text="Gender"
+ android:layout_weight="1"/>
 <TextView
-android:text="Grade" android:layout_weight="1"/>
+android:text="Grade" 
+android:layout_weight="1"/>
 <TextView
-android:text="Address" android:layout_weight="2"/>
+android:text="Address" 
+android:layout_weight="2"/>
 </TableRow>
 
 <!-- Student rows -->
 <TableRow>
 <TextView
-android:text="Dhiraj" android:layout_weight="1"/>
+android:text="Dhiraj"
+ android:layout_weight="1"/>
 <TextView
-android:text="20" android:layout_weight="1"/>
+android:text="20" 
+android:layout_weight="1"/>
  
 <TextView
-android:text="Male" android:layout_weight="1"/>
+android:text="Male" 
+android:layout_weight="1"/>
 <TextView
-android:text="12th" android:layout_weight="1"/>
+android:text="12th" 
+android:layout_weight="1"/>
 <TextView
-android:text="123 Main St, Anytown, USA" android:layout_weight="2"/>
+android:text="123 Main St, Anytown, USA" 
+android:layout_weight="2"/>
 </TableRow>
 
 <TableRow>
 <TextView
-android:text="Hiren" android:layout_weight="1"/>
+android:text="Hiren" 
+android:layout_weight="1"/>
 <TextView
-android:text="19" android:layout_weight="1"/>
+android:text="19" 
+android:layout_weight="1"/>
 <TextView
-android:text="Male" android:layout_weight="1"/>
+android:text="Male" 
+android:layout_weight="1"/>
 <TextView
-android:text="11th" android:layout_weight="1"/>
+android:text="11th" 
+android:layout_weight="1"/>
 <TextView
-android:text="456 Oak St, Anytown, USA" android:layout_weight="2"/>
+android:text="456 Oak St, Anytown, USA" 
+android:layout_weight="2"/>
 </TableRow>
 
 <TableRow>
 <TextView
-android:text="Pragati" android:layout_weight="1"/>
+android:text="Pragati" 
+android:layout_weight="1"/>
 <TextView
-android:text="18" android:layout_weight="1"/>
+android:text="18" 
+android:layout_weight="1"/>
 <TextView
-android:text="Female" android:layout_weight="1"/>
+android:text="Female" 
+android:layout_weight="1"/>
 <TextView
-android:text="10th" android:layout_weight="1"/>
+android:text="10th" 
+android:layout_weight="1"/>
 <TextView
-android:text="789 Maple St, Anytown, USA" android:layout_weight="2"/>
+android:text="789 Maple St, Anytown, USA" 
+android:layout_weight="2"/>
 </TableRow>
 
 <TableRow>
 <TextView
-android:text="Abhijjet" android:layout_weight="1"/>
+android:text="Abhijjet" 
+android:layout_weight="1"/>
 <TextView
-android:text="21" android:layout_weight="1"/>
+android:text="21" 
+android:layout_weight="1"/>
 <TextView
-android:text="Male" android:layout_weight="1"/>
+android:text="Male" 
+android:layout_weight="1"/>
 <TextView
-android:text="12th" android:layout_weight="1"/>
+android:text="12th" 
+android:layout_weight="1"/>
 <TextView
-android:text="246 Elm St, Anytown, USA" android:layout_weight="2"/>
+android:text="246 Elm St, Anytown, USA" 
+android:layout_weight="2"/>
 </TableRow>
 
 <TableRow>
 <TextView
  
-android:text="Sarth" android:layout_weight="1"/>
+android:text="Sarth" 
+android:layout_weight="1"/>
 <TextView
-android:text="19" android:layout_weight="1"/>
+android:text="19" 
+android:layout_weight="1"/>
 <TextView
-android:text="Male" android:layout_weight="1"/>
+android:text="Male" 
+android:layout_weight="1"/>
 <TextView
-android:text="11th" android:layout_weight="1"/>
+android:text="11th" 
+android:layout_weight="1"/>
 <TextView
-android:text="135 Pine St, Anytown, USA" android:layout_weight="2"/>
+android:text="135 Pine St, Anytown, USA" 
+android:layout_weight="2"/>
 </TableRow>
 
 </TableLayout>
@@ -325,21 +358,34 @@ public class MainActivity extends AppCompatActivity {
 6.	Write a program to create a login form for a social networking site
 Xml code 
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
-android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical"
+android:layout_width="match_parent" 
+android:layout_height="match_parent">
 
 <EditText
-android:id="@+id/username" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username"/>
+android:id="@+id/username"
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:hint="Username"/>
 
 <EditText
-android:id="@+id/password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="textPassword"/>
+android:id="@+id/password" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:hint="Password" 
+android:inputType="textPassword"/>
 
 <Button
-android:id="@+id/login_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Log In"/>
+android:id="@+id/login_button" 
+android:layout_width="match_parent"
+android:layout_height="wrap_content" 
+android:text="Log In"/>
 
 </LinearLayout>
 
 Java Code
+
 import android.os.Bundle; 
 import android.view.View;
 import android.widget.Button; 
@@ -378,6 +424,32 @@ Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_
 });
 }
 }
+
+Or
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical"
+android:layout_width="match_parent" 
+android:layout_height="match_parent">
+<EditText
+android:id="@+id/username" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content"
+android:hint="Username"/>
+<EditText
+android:id="@+id/password" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:hint="Password" 
+android:inputType="textPassword"/>
+<Button
+android:id="@+id/login_button" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:text="Log In"/>
+</LinearLayout>
+
 
 7.	Write a program to show five checkboxes and toast selected checkbox.
 Xml Code:
